@@ -1,9 +1,42 @@
-body {
+/*Control header for all pages*/
+.header {
+  background-color: #333; /* change this later to our colorscheme*/
+  font-family: sans-serif;
+  display: flex;
+}
+
+.header li {
+  display: inline;
+  margin: 10px;
+}
+
+.header li a {
+  color: white;
+  text-decoration: None;
+}
+
+.header li a:hover {
+  text-decoration: underline;
+}
+
+.loginLink button{
+  text-decoration: none;
+  background-color: lightblue;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 15px;
+  float: right;
+  margin-right: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.body {
   background-color: powderblue;
 }
-h1 {
+.h1 {
   color: blue;
 }
-p {
+.p {
   color: red;
 }
