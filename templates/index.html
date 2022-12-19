@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="static/styles.css">
 </head>
 
-
+<div class = "master">
     <div class = "header">
     
       <ul>
@@ -17,40 +17,52 @@
       </ul>
     </div>
     
-    <div class = "loginLink">
-      <button>
-      Log In/Create Account
-      </button>
+    <div class =  "loginRow">
+      <div class = "loginLink">
+        <button>
+        Log In/Create Account
+        </button>
+      </div>
     </div>
+    
+  <div class = "centerPiece">
     
     <div class = "mainLogo">
-     <h1>
-     Welcome to ResearchConnect!
-     </h1>
+       <h1>
+       Welcome to ResearchConnect!
+       </h1>
+    </div>
+
+    <div id = "logo">
+      <img width = "30" height = "30" src = "https://images.rawpixel.com/image_png_700/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvczkyLWt0LTAxNjI0XzEucG5n.png">
     </div>
     
-    <div class = "logo">
-      <h1>
-      Placeholder for main logo
-      </h1>
+  </div>
+    
+    <div class = "searchBox">
+      <div id = "searchHeader">
+        <p>Find Your Next Research Collaboration!</p>
+      </div>
+      <div id = "searchArea">
+      
+        <div id = "searchInputBox">
+          <input id = searchInput type="text" placeholder="Search..">
+        </div>
+        
+        <div id = "toggle">
+          <input type="checkbox" id="disableToggle">
+          <label for="disableToggle">Disable Interdisciplinary Positions</label>
+        </div>
+        
+      </div>
+      <div id = "searchButtonDiv">
+        <button id = searchButton>Search Research Positions!</button>
+      </div>
     </div>
     
-    <div class = "searchbar">
-      <div class = searchHeader>
-        <p1>Placeholder for motto text</p1>
-      </div>
-      <div class = "searchInput">
-      </div>
-        <p1>placeholder for input</p1>
-      <div class = "disableToggle">
-        <p1>Placeholder for disable interdisc toggle</p1>
-      </div>
-      <div class = "searchButton">
-        <p1>Placeholder for search button</p1>
-      </div>
+    <div class = "postPosition">
+      <button id = postButton> Looking for Research Partners? Post Here! </button>
     </div>
-    
-    <div id = "postPosition">
-      <p1> Post position here placeholder </p1>
-    </div>
+</div>
+
 </html>

@@ -1,3 +1,9 @@
+.master{
+  height: 800px;
+  width: 1200px;
+  font-family: sans-serif;
+}
+
 /*Control header for all pages*/
 .header {
   background-color: #333; /* change this later to our colorscheme*/
@@ -19,6 +25,14 @@
   text-decoration: underline;
 }
 
+.loginRow{
+  vertical-align: top;
+  margin: auto;
+  width: 1200px;
+  height: 80px;
+}
+
+/* Login Button Style */
 .loginLink button{
   text-decoration: none;
   background-color: lightblue;
@@ -27,7 +41,8 @@
   padding: 10px 15px;
   float: right;
   margin-right: 15px;
-  margin-top: 15px;
+  margin-top: 10px;
+  vertical-align: top;
   cursor: pointer;
 }
 
@@ -39,4 +54,73 @@
 }
 .p {
   color: red;
+}
+
+/* Main Logo Style */
+.centerPiece{
+  position: relative;
+  margin: auto;
+  width: 600px;
+  height: 100px;
+  text-align: center;
+}
+
+#logo{
+  display: flex;
+  justify-content: center;
+}
+
+.searchBox{
+  margin-top: 45px;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  width: 1080px;
+}
+
+.searchBox #searchArea{
+  float: left;
+}
+
+.searchBox #searchInputBox{
+  width: 1080px;
+  float: left;
+}
+
+.searchBox #searchInput{
+  float: left;
+  width: 1080px;
+}
+
+.searchBox #toggle{
+  float: left;
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+.searchBox #searchButtonDiv{
+  margin-top: 15px;
+}
+
+.searchBox #searchButtonDiv #searchButton{
+  padding: 10px 15px;
+  border: 1px solid black;
+  text-decoration: none;
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: -2px 2px;
+}
+
+.postPosition{
+  position: relative;
+  margin: auto;
+  width: 800px; /* actually 810 px */
+  text-align: center;
+}
+
+.postPosition #postButton{
+  background-color: lightblue;
+  margin-top: 30px
 }
