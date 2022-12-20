@@ -1,0 +1,68 @@
+.master{
+  height: 800px;
+  width: 1200px;
+  font-family: sans-serif;
+}
+
+/*Control header for all pages*/
+.header {
+  background-color: #333; /* change this later to our colorscheme*/
+  font-family: sans-serif;
+  display: flex;
+}
+
+.header li {
+  display: inline;
+  margin: 10px;
+}
+
+.header li a {
+  color: white;
+  text-decoration: None;
+}
+
+.header li a:hover {
+  text-decoration: underline;
+}
+
+.posting { 
+  
+}
+
+#title {
+  text-align: center;
+}
+
+form {
+  margin: 0 auto; 
+  width:800px;
+}
+
+p {
+  display: table-row;
+}
+
+label {
+  display: table-cell;
+  text-align: right;
+  margin-left: 2px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input {
+  display: table-cell;
+  margin-left: 2px;
+  margin-top: 10px;
+  width: 500px;
+}
+
+#f, #e {
+  line-height: 50px;
+}
+
+#post {
+  float: right;
+  margin-top: 20px;
+  margin-right: 303.5px;
+}

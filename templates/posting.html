@@ -1,26 +1,79 @@
-<div class = "posting">
-  <div class = "ProjectNameInput">
-    Placeholder for Project name
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FlaskApp</title>
+    <link rel="stylesheet" href="static/styles_posting.css">
+</head>
+
+<div class = "master">
+    <div class = "header">
+    
+      <ul>
+        <li><a href="Home.asp">Home</a></li>
+        <li><a href="Messaging.asp">Messaging</a></li>
+        <li><a href="My Profile.asp">My Profile</a></li>
+        <li><a href="Lab Blogs.asp">Lab Blogs</a></li>
+      </ul>
+    </div>
+    
+  <div class = "posting">
+    <h1 id = title>
+      New Posting
+    </h1>
+    <form>
+      <p>
+        <label for="a">
+          Project Name: 
+        </label>
+        <input id="a", type = "text">
+      </p>
+      <p>
+        <label for="b">
+          Your Name:
+        </label>
+        <input id="b", type = "text">
+      </p>
+      <p>
+        <label for="c">
+          Contact Email:
+        </label>
+        <input id="c", type = "text">
+      </p>
+      <p>
+        <label for="d">
+          Field(s):
+        </label>
+        <input id="d", type = "text">
+      </p>
+      <p>
+        <label for="e">
+          Project Description:
+        </label>
+        <input id="e", type = "text">
+      </p>
+      <p>
+        <label for="f">
+          Preferred Qualifications:
+        </label>
+        <input id="f", type = "text">
+      </p>
+      <p>
+        <label for="g">
+          Project Tag(s):
+        </label>
+        <input id="g", type = "text", style = "">
+      </p>
+    </form>
   </div>
-  <div class = "ProfNameInput">
-    Placeholder for ProfessorName
+  <div>
+    <button id = "post">
+      Post Position!
+    </button>
   </div>
-  <div class = "ContactEmail">
-    Placeholder for contact email
-  </div>
-  <div class = "Fields">
-    Placeholder for Fields
-  </div>
-  <div class = "ProjectDescription">
-    Placeholder for projectDescription
-  </div>
-  <div class = "PreferredQuals">
-    Placeholder for preferred qualifications
-  </div>
-  <div class = "Tags">
-    Placeholder for project tags
-  </div>
-  <div class = "submit">
-    Placeholder for submit
-  </div>
+
+
+    
 </div>
+
+</html>

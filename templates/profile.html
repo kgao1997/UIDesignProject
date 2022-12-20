@@ -1,64 +1,163 @@
-<div class = "header">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FlaskApp</title>
+    <link rel="stylesheet" href="static/styles_posting.css">
+</head>
 
-  <ul>
-    <li><a href="Home.asp">Home</a></li>
-    <li><a href="Messaging.asp">Messaging</a></li>
-    <li><a href="My Profile.asp">My Profile</a></li>
-    <li><a href="Lab Blogs.asp">Lab Blogs</a></li>
-  </ul>
+<div class = "master">
+    <div class = "header">
+    
+      <ul>
+        <li><a href="Home.asp">Home</a></li>
+        <li><a href="Messaging.asp">Messaging</a></li>
+        <li><a href="My Profile.asp">My Profile</a></li>
+        <li><a href="Lab Blogs.asp">Lab Blogs</a></li>
+      </ul>
+    </div>
+    
+    <div class = "left">
+      <div class = "profileBox">
+        <div class = "profileHead">
+          <div class = "profileText">
+            <h1 class = "myProfile">
+              My Profile
+            </h1>
+            <p class = "Name">
+            James Webb
+            </p>
+            <p class = "Academia">
+            Sophomore/Astrophysics/Expected B.A. '26
+            </p>
+            <p class = "Resume">
+            Upload Resume
+            </p>
+          </div>
+          <div class = "profilePic">
+            <img src = "https://solarsystem.nasa.gov/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdDA2IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--99c920b7431d0815e8f94fa95f1508d2503f1cbd/JWST_Illustration-1280.jpg">
+          </div>
+
+        </div>
+      
+      <div class = "interestsBox">
+        <div class = "interestsTitle">
+          <h1 class = "interestsHeader">
+          Interests
+          </h1>
+          <div class = "interestsContainer">
+            <table id = "interestsTable">
+              <tr>
+              <td>Astronomy</td>
+              <td>Instrumentation</td>
+              <td>Literature</td>
+              </tr>
+            </table>
+            <div class = "addIcon">
+              <img src = "https://upload.wikimedia.org/wikipedia/commons/9/9e/Plus_symbol.svg">
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class = "skillsBox">
+        <div class = "skillsTitle">
+          <h1 class = "skillsHeader">
+          Skills
+          </h1>
+          <div class = "skillsContainer">
+            <table id = "skillsTable">
+              <tr>
+              <td>C++</td>
+              <td>AstroPy</td>
+              <td>Java</td>
+              </tr>
+            </table>
+            <div class = "addIcon">
+              <img src = "https://upload.wikimedia.org/wikipedia/commons/9/9e/Plus_symbol.svg">
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class = "aboutBox">
+        <h1 id = "aboutMeHeader">
+        About Me
+        </h1>
+        <p id = "aboutMeText">
+          I am a sophomore in Columbia College studying astrophysics and minoring in creative writing. My interests lie in the intersection of astronomy ad the arts. I am looking forward to finding ways to mix both of my interests. Currently I am looking forward to working in an instrumentation laboratory. 
+        </p>
+      </div>
+      
+      </div>
+    </div>
+    
+    <div class = "right">
+    
+    <h1 id = "messagingHeader">
+      Messaging
+    </h1>
+    
+      <div class = "messageBox">
+        <div class = "messageLeft">
+          <h1 class = "messageSubject">
+            RE: FIREBALL
+          </h1>
+          <p class = "messageSender">
+          Professor David Shiminovich
+          </p>
+          <p class = "messageText">
+          Hi James, <br>
+          <br>
+          I'm happy to hear that you're interested in joining our research group. Our team meets on Thursday on the 14th floor of Pupin. What would be a good time for you? <br> 
+          <br> 
+          Thanks, <br> 
+          DS
+          </p>
+        </div>
+        <div class = "messageDropdown">
+          <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Arrow-down.svg/1200px-Arrow-down.svg.png">
+        </div>
+        <button class = "replyButton" type = "button">
+          Reply
+        </button>
+      </div>
+      
+       <div class = "messageBox">
+        <div class = "messageLeft">
+          <h1 class = "messageSubject">
+            RE: Astronaut
+          </h1>
+          <p class = "messageSender">
+          Kevin Gao, Representing Professor JR Lennon
+          </p>
+          <p class = "messageText">
+          Hi James, <br>
+          <br>
+          I'm so happy to hear that you're interested in helping with the research for "Darkness Devil: The Astrologue Tragedy. Are you familiar with how to DIY telescope. We could meet on Zoom this Wednesday at 5pm if that works for you?"
+          <br> 
+          Thanks, <br> 
+          Kevin
+          </p>
+        </div>
+        <div class = "messageDropdown">
+          <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Arrow-down.svg/1200px-Arrow-down.svg.png">
+        </div>
+        <button class = "replyButton" type = "button">
+          Reply
+        </button>
+      </div>
+    
+    </div>
+    
+    </div>
+    
+    
+  
+
+    
 </div>
 
-<div id = "MyProfile">
-  <div id = "MyInfo">
-    <div id = "Name">
-      Placeholder for name
-    </div>
-    <div id = "MetaInfo">
-      Placeholder for metadata
-    </div>
-    <div id = "UploadResume">
-      Placeholder for upload resume button
-    </div>
-    <div id = "ProfilePicture">
-      Placeholder for Profile Picture
-    </div>
-  </div>
-  <div id = "InterestHeader">
-    Placeholder for Interests Header
-  </div>
-  <div id = "Interests">
-    Placeholder for Interests
-  </div>
-  <div id = "SkillsHeader">
-    PlaceHolder for SkillsHeader
-  </div>
-  <div id = "Skills">
-    Placeholder for skills
-  </div>
-  <div id = "AboutMeHeader">
-    Placeholder for aboutMeHeader
-  </div>
-  <div id = "AboutMe">
-    Placeholder for about me
-  </div>
-</div>
-
-<div id = "Messaging"> /* this is one message box, after styling add another */
-  <div id = "MessageBox">
-    <div id = "MessageHeader">
-      Placeholder for Message Header
-    </div>
-    <div id = "MessageSender">
-      PlaceHolder for message sender
-    </div>
-    <div id = "Messagebody">
-      Placeholder for Message Body
-    </div>
-    <div id = "dropdown">
-      Placeholder for Dropdown Button
-    </div>
-    <div id = "replyButton">
-      Placeholder for Reply Button
-    </div>
-  </div>
-</div>
+</html>

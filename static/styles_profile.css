@@ -1,0 +1,255 @@
+.master{
+  height: 800px;
+  width: 1200px;
+  font-family: sans-serif;
+}
+
+/*Control header for all pages*/
+.header {
+  background-color: #333; /* change this later to our colorscheme*/
+  font-family: sans-serif;
+  display: flex;
+}
+
+.header li {
+  display: inline;
+  margin: 10px;
+}
+
+.header li a {
+  color: white;
+  text-decoration: None;
+}
+
+.header li a:hover {
+  text-decoration: underline;
+}
+
+.left{
+  height: 750px;
+  width: 600px;
+  float: left;
+}
+
+.right{
+  height: 750px;
+  width: 600px;
+  float: right;
+}
+
+.left .profileBox{
+  margin-top: 30px;
+  height: 620px;
+  width: 575px;
+  border-radius: 30px;
+  border: solid 2px black;
+  display: inline-block;
+}
+
+.left .profileHead{
+  margin-top: 15px;
+}
+
+.left .profileBox .profileText{
+  height: 150px;
+  width: 350px;
+  margin-left: 25px;
+  display: inline-block;
+  align-self: flex-start;
+}
+
+.left .profileBox .profilePic{
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+}
+
+.left .profileBox .profilePic img{
+  top: 20px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.left .myProfile{
+  margin-top: 0;
+  padding: 5px 5px;
+  margin-bottom: 0;
+}
+
+.left .Name{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 5px 5px;
+}
+
+.left .Academia{
+  padding: 5px 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.left .Resume{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 5px 5px;
+  color: blue;
+  text-decoration: underline;
+}
+
+.left .interestsBox{
+  margin-left: 15px;
+  height: 100px;
+  width: 575px;
+}
+
+.left .interestsContainer{
+}
+
+.left .interestsHeader{
+  padding-left: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+}
+
+.left table{
+  margin-top: 0;
+  width: 450px;
+  display: inline-block;
+  border-collapse: separate;
+  border-spacing: 5px;
+}
+
+.left td{
+  padding: 0px 10px;
+  margin-left: 10px;
+  width: 115px;
+  height: 50px;
+  text-align: center;
+  border-radius: 30px;
+  border: solid black 2px;
+}
+
+.left .interestsTable{
+  display: inline-block;
+}
+
+
+.left .skillsBox{
+  margin-left: 15px;
+  height: 100px;
+  width: 550px;
+}
+
+.left .skillsHeader{
+  padding-left: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+}
+
+
+.left .skillsTable{
+  display: inline-block;
+}
+
+.left .addIcon{
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  border: solid 2px black;
+  border-radius: 50%;
+  background-color: lightgreen;
+  margin-left: 15px;
+}
+
+.left .addIcon img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.left #aboutMeHeader{
+  margin-left: 25px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.left #aboutMeText{
+  margin-top: 5px;
+  margin-left: 25px;
+  margin-right: 15px;
+  padding: 5px 5px;
+  border: 2px solid black;
+}
+
+.right #messagingHeader{
+  text-align: center;
+}
+
+.right .messageBox{
+  margin-top: 20px;
+  height: 275px;
+  width: 590px;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+.right .messageLeft{
+  height: 300px;
+  display: inline-block;
+}
+
+.right .messageSubject{
+  margin-top: 27.5px;
+  margin-left: 25px;
+  margin-bottom: 5px;
+  font-weight: 775;
+}
+
+.right .messageSender{
+  margin-top: 0px;
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+
+.right .messageText{
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-right: 50px;
+}
+
+.right .messageDropdown{
+  position: relative;
+  height: 30px;
+  width: 30px;
+  border: 2px solid black;
+  top: -270px;
+  right: -510px;
+  justify-content: center;
+  box-shadow: -1px 1px;
+}
+
+.right .messageDropdown img{
+  position: relative;
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+  margin-left: 5.75px;
+  margin-top: 5.75px;
+}
+
+.right .replyButton {
+  position: relative;
+  height: 30px;
+  width: 60px;
+  top: -100px;
+  right: -485px;
+  border: 2px solid black;
+  background-color: white;
+  box-shadow: -1px 1px;
+  
+}
+
+
