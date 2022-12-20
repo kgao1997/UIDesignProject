@@ -4,18 +4,30 @@
     <meta charset="UTF-8">
     <title>FlaskApp</title>
     <link rel="stylesheet" href="static/styles_results.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
 
 <div class = "master">
+    <div class = "logo">
+      <div class = "handshake">
+        <img src = "https://upload.wikimedia.org/wikipedia/commons/9/97/Handshake%2C_by_David.svg">
+      </div>
+      <p id = "rcLogo">
+          ResearchConnect
+      </p>
+    </div>
     <div class = "header">
-    
       <ul>
-        <li><a href="/posting">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li><a href="/posting">Messaging</a></li>
         <li><a href="/profile">My Profile</a></li>
         <li><a href="/results">Lab Blogs</a></li>
       </ul>
+      
+       <input id = "headSearchInput" type = "text" placeholder = "Search">
     </div>
+    
     
     <div class = "search">
       <h1 id = "searchHeader">

@@ -1,14 +1,43 @@
 .master{
   height: 800px;
   width: 1200px;
-  font-family: sans-serif;
+  font-family: 'Montserrat';
 }
 
 /*Control header for all pages*/
+.logo {
+  background-color: #333;
+  font-family: "Inter";
+  color: white;
+  font-weight: 600;
+  display: flex;
+  font-size: 24px;
+}
+
+.logo .handshake{
+  height: 35px;
+  width: 35px;
+  position: relative;
+  top: 20px;
+  margin-left: 50px;
+}
+
+.logo .handshake img{
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  filter: invert(1);
+}
+
+.logo #rcLogo{
+  margin-left: 10px;
+}
+
 .header {
   background-color: #333; /* change this later to our colorscheme*/
-  font-family: sans-serif;
+  font-family: "Inter";
   display: flex;
+  justify-content: space-between;
 }
 
 .header li {
@@ -25,6 +54,52 @@
   text-decoration: underline;
 }
 
+.header #headSearchInput{
+  align-self: flex-end;
+  margin-bottom: 15px;
+  margin-right: 35px;
+  height: 25px;
+  border-radius: 15px;
+  padding-left: 7px;
+  /*margin-left: 600px;*/
+}
+
+.search{
+  height: 125px;
+  width: 1200px;
+}
+
+.search #searchHeader{
+  margin-left: 25px;
+  margin-bottom: 0px;
+}
+
+.search #searchInput{
+  margin-top: 10px;
+  margin-left: 30px;
+  height: 30px;
+  width: 95%;
+}
+
+.search #buttonHolder{
+  background-color: red;
+}
+
+.search #buttonHolder #disableCheck{
+  margin-left: 25px;
+  font-size: 10px;
+  float: left;
+}
+
+.search #searchBox #searchButton{
+  float: right;
+  margin-right: 40px;
+  margin-top: 15px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: -1px 1px 1px 1px;
+  text-decoration: none;
+}
 .left{
   height: 750px;
   width: 600px;
