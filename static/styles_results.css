@@ -6,7 +6,7 @@
 
 /*Control header for all pages*/
 .logo {
-  background-color: #333;
+  background-color: #1C2541;
   font-family: "Inter";
   color: white;
   font-weight: 600;
@@ -34,7 +34,7 @@
 }
 
 .header {
-  background-color: #333; /* change this later to our colorscheme*/
+  background-color: #1C2541; /* change this later to our colorscheme*/
   font-family: "Inter";
   display: flex;
   justify-content: space-between;
@@ -180,11 +180,11 @@
   text-align: center;
   border-radius: 30px;
   border: solid black 2px;
-  background-color: lightgreen;
+  background-color: #b8dcac;
 }
 
 .left #fireball{
-  border: 2px solid blue;
+  border: 2px solid #18A0FB;
 }
 
 
@@ -208,7 +208,7 @@
 }
 
 .right .titleMetaData{
-  background-color: lightgreen;
+  background-color: #b8dcac;
 }
 
 .right #messageStar{
@@ -278,7 +278,7 @@
   text-align: center;
   border-radius: 30px;
   border: solid black 2px;
-  background-color: lightgreen;
+  background-color: #b8dcac;
 }
 
 .right .projectDetails{
