@@ -38,7 +38,7 @@
 }
 
 .left .profileBox{
-  margin-top: 30px;
+  margin-top: 32.5px;
   height: 620px;
   width: 575px;
   border-radius: 30px;
@@ -47,7 +47,7 @@
 }
 
 .left .profileHead{
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 .left .profileBox .profileText{
